@@ -33,7 +33,8 @@ namespace AnagramLib
         /// Tests the specified collection of strings against <see cref="SourceString"/>. 
         /// </summary>
         /// <param name="toMatch">The strings to match.</param>
-        /// <returns>The strings that are anagrams of <see cref="SourceString"/>.</returns>
+        /// <returns>The strings that are anagrams of <see cref="SourceString"/>, or null
+        /// if no strings match.</returns>
         public string[] Match(string[] toMatch)
         {
             string[] matchesArray = null;
