@@ -1,6 +1,7 @@
 ﻿// Solution to exercism problem: charp / bob
 // http://exercism.io/exercises/csharp/bob/readme
 // Copyright (c) 2016 James P. Galasyn
+// This project is licensed under the terms of the MIT license.
 
 using System;
 

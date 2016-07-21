@@ -1,6 +1,8 @@
 ﻿// Solution to exercism problem: charp / leap
 // http://exercism.io/exercises/csharp/leap/readme
 // Copyright (c) 2016 James P. Galasyn
+// This project is licensed under the terms of the MIT license.
+
 namespace LeapYearLib
 {
     /// <summary>

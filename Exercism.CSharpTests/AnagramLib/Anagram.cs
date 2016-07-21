@@ -1,6 +1,7 @@
 ﻿// Solution to exercism problem: charp / anagram
 // http://exercism.io/exercises/csharp/anagram/readme
 // Copyright (c) 2016 James P. Galasyn
+// This project is licensed under the terms of the MIT license.
 
 using System;
 using System.Collections.Generic;
@@ -16,7 +17,7 @@ namespace AnagramLib
         /// <summary>
         /// Initializes a new instance of the <see cref="Anagram"/> class to the specified string.
         /// </summary>
-        /// <param name="source"></param>
+        /// <param name="source">The string to compare against.</param>
         public Anagram(string source)
         {
             if (!String.IsNullOrEmpty(source))
