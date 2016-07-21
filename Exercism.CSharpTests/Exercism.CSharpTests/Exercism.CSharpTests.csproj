@@ -41,6 +41,7 @@
     <Compile Include="AnagramTest.cs" />
     <Compile Include="BobTest.cs" />
     <Compile Include="ETLTest.cs" />
+    <Compile Include="HammingTest.cs" />
     <Compile Include="LeapTest.cs" />
     <Compile Include="TestClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -60,6 +61,10 @@
     <ProjectReference Include="..\EtlLib\EtlLib.csproj">
       <Project>{a0cb4664-0605-4025-bc88-e24424321281}</Project>
       <Name>EtlLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HammingLib\HammingLib.csproj">
+      <Project>{717ff5be-37b2-447b-a243-149965447f81}</Project>
+      <Name>HammingLib</Name>
     </ProjectReference>
     <ProjectReference Include="..\LeapYearLib\LeapYearLib.csproj">
       <Project>{f7a3d310-d98c-4c23-875c-314abf110b8a}</Project>
