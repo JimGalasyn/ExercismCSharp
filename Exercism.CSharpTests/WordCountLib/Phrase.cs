@@ -14,7 +14,8 @@ namespace WordCountLib
 
             var phraseScrubbed = FilterNonAlpha(phrase);
 
-            var words = phraseScrubbed.Split(' ');
+            var words = phraseScrubbed.Split(new[] {' ', ',' });
+            //var words = phraseScrubbed.Split(' ');
             var wordsScrubbed = words.Where(w => !String.IsNullOrWhiteSpace(w));
 
             foreach (var word in wordsScrubbed)
@@ -62,7 +63,7 @@ namespace WordCountLib
             char[] charArray = str.ToCharArray();
 
             charArray = Array.FindAll<char>(charArray, (c =>
-            (char.IsLetterOrDigit(c) || char.IsWhiteSpace(c) || c == '\'')));
+            (char.IsLetterOrDigit(c) || char.IsWhiteSpace(c) || c == '\'' || c == ',')));
 
             string retval = new string(charArray);
 
