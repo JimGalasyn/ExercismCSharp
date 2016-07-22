@@ -45,6 +45,7 @@
     <Compile Include="LeapTest.cs" />
     <Compile Include="TestClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WordCountTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -69,6 +70,10 @@
     <ProjectReference Include="..\LeapYearLib\LeapYearLib.csproj">
       <Project>{f7a3d310-d98c-4c23-875c-314abf110b8a}</Project>
       <Name>LeapYearLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WordCountLib\WordCountLib.csproj">
+      <Project>{4060906a-c64e-4dbb-9c63-187d2b659ddf}</Project>
+      <Name>WordCountLib</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
