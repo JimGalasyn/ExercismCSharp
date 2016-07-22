@@ -15,7 +15,6 @@ namespace WordCountLib
             var phraseScrubbed = FilterNonAlpha(phrase);
 
             var words = phraseScrubbed.Split(new[] {' ', ',' });
-            //var words = phraseScrubbed.Split(' ');
             var wordsScrubbed = words.Where(w => !String.IsNullOrWhiteSpace(w));
 
             foreach (var word in wordsScrubbed)
