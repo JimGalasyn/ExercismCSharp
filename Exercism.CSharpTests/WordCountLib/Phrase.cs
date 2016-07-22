@@ -15,7 +15,7 @@ namespace WordCountLib
     public class Phrase
     {
         /// <summary>
-        /// Counts the number of times eac word appears in a phrase.
+        /// Counts the number of times each word appears in a phrase.
         /// </summary>
         /// <param name="phrase">The phrase to analyze.</param>
         /// <returns>A dictionary of word counts.</returns>
